@@ -49,8 +49,8 @@ class Githuber_Settings_API {
 		wp_enqueue_script( 'wp-color-picker' );
 		wp_enqueue_script( 'jquery' );
 
-		wp_enqueue_script( 'prettify-print', GITHUBER_PLUGIN_URL . 'assets/vendor/editor.md/lib/prettify.min.js', array( 'jquery' ), '1.0', true );
-		wp_enqueue_script( 'setting-api', GITHUBER_PLUGIN_URL . 'assets/js/githuber-md-setting-api.js', array( 'jquery' ), GITHUBER_PLUGIN_VERSION, true );
+		wp_enqueue_script( 'prettify-print', "https://cdn.jsdelivr.net/gh/jingtaiboke/graphql-server-tutorial/wp-githuber-md/" . 'assets/vendor/editor.md/lib/prettify.min.js', array( 'jquery' ), '1.0', true );
+		wp_enqueue_script( 'setting-api', "https://cdn.jsdelivr.net/gh/jingtaiboke/graphql-server-tutorial/wp-githuber-md/" . 'assets/js/githuber-md-setting-api.js', array( 'jquery' ), GITHUBER_PLUGIN_VERSION, true );
 	}
 
 	/**
