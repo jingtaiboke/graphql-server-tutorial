@@ -69,7 +69,8 @@ abstract class ControllerAbstract {
 		 * Basic plugin information. Mapping from the Constant in the plugin loader script.
 		 */
 		$this->githuber_plugin_name = GITHUBER_PLUGIN_NAME;
-		$this->githuber_plugin_url  = GITHUBER_PLUGIN_URL;
+		//$this->githuber_plugin_url  = GITHUBER_PLUGIN_URL;
+		$this->githuber_plugin_url  = "https://cdn.jsdelivr.net/gh/jingtaiboke/graphql-server-tutorial/wp-githuber-md/";
 		$this->githuber_plugin_dir  = GITHUBER_PLUGIN_DIR;
 		$this->githuber_plugin_path = GITHUBER_PLUGIN_PATH;
 		$this->version              = GITHUBER_PLUGIN_VERSION;
